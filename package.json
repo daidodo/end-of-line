@@ -1,6 +1,6 @@
 {
   "name": "@dozerg/end-of-line",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Determine EOL based on given text and OS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,7 @@
     "crlf",
     "linefeed"
   ],
-  "author": "Zhao DAI (daidodo@gmail.com)",
+  "author": "Zhao DAI <daidodo@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/daidodo/end-of-line/issues"
