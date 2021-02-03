@@ -38,6 +38,12 @@ Determine end-of-line marker for a given text. The following markers will be rec
 
 If there is no EOL found, [os.EOL](https://nodejs.org/api/os.html#os_os_eol) will be returned.
 
+### `function endOfLineForFile(filePath: string): string`
+
+Determine end-of-line marker for a given file.
+
+If file doesn't exist or cannot be read, [os.EOL](https://nodejs.org/api/os.html#os_os_eol) will be returned.
+
 ## License
 
 MIT
