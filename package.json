@@ -1,6 +1,6 @@
 {
   "name": "@dozerg/end-of-line",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Determine EOL based on given text and OS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "prepare": "npm run clean && npm run build"
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,4 @@
+import fs from 'fs';
 import os from 'os';
 
 function assertNonNull<T>(value: T, message?: string): asserts value is NonNullable<T> {
@@ -33,4 +34,9 @@ export function endOfLine(text?: string) {
     }
   }
   return os.EOL;
+}
+
+export function endOfLineForFile(filePath: string) {
+  if (!filePath || !fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) return endOfLine();
+  return endOfLine(fs.readFileSync(filePath).toString());
 }
