@@ -1,5 +1,7 @@
 # End-of-line
 
+[![npm](https://img.shields.io/npm/v/format-imports.svg)](https://www.npmjs.com/package/format-imports) ![Downloads](https://img.shields.io/npm/dm/format-imports.svg)
+
 Determine EOL based on given text and OS.
 
 ## Install
@@ -18,7 +20,11 @@ const default_eol = endOfLine();
 
 // Detect EOL for a given text.
 const text = 'some\ntext\nwith\r\nnewlines\r';
-const eol = endOfLine(text); // '\n'
+const text_eol = endOfLine(text); // '\n'
+
+// Detect EOL for a file.
+const filename = '/path/to/file.ext';
+const file_eol = endOfLineForFile(filename);
 ```
 
 ## APIs
