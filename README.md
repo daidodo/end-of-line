@@ -1,6 +1,6 @@
 # End-of-line
 
-[![npm](https://img.shields.io/npm/v/format-imports.svg)](https://www.npmjs.com/package/format-imports) ![Downloads](https://img.shields.io/npm/dm/format-imports.svg)
+[![npm](https://img.shields.io/npm/v/@dozerg/end-of-line.svg)](https://www.npmjs.com/package/@dozerg/end-of-line) ![Downloads](https://img.shields.io/npm/dm/@dozerg/end-of-line.svg)
 
 Determine EOL based on given text and OS.
 
