@@ -1,6 +1,7 @@
 # End-of-line
 
 [![npm](https://img.shields.io/npm/v/@dozerg/end-of-line.svg)](https://www.npmjs.com/package/@dozerg/end-of-line) ![Downloads](https://img.shields.io/npm/dm/@dozerg/end-of-line.svg)
+[![Build Status](https://github.com/daidodo/end-of-line/actions/workflows/node.js.yml/badge.svg)](https://github.com/daidodo/end-of-line/actions)
 
 Determine EOL based on given text and OS.
 
