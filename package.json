@@ -1,6 +1,6 @@
 {
   "name": "@dozerg/end-of-line",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Determine EOL based on given text and OS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
